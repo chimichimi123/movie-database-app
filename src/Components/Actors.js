@@ -47,7 +47,8 @@ function Actors() {
     <div>
       <h1 className="Actors-title">Actor search function</h1>
       <h2 className="actors-bio">
-        Search any actors name and you'll every movie they've starred in!
+        Search any actors name and you'll recieve every movie they've starred
+        in!
       </h2>
       <form onSubmit={handleSearchSubmit}>
         <input
