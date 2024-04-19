@@ -1,38 +1,382 @@
-.App {
+.Home {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Home h1 {
+  color: #333;
+  font-size: 2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Home p {
+  color: #666;
+  font-size: 1.2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.MovieList-title {
+  text-align: center;
+  color: #333;
+}
+
+.search-bar {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.2em;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+.bio {
+  text-align: center;
+  color: #333;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.Like-button {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  margin: 20px auto;
+  border: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Like-button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  background-color: #c9c9c9;
+}
+
+.NavBar {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.NavBar a {
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.NavBar a:hover {
+  background-color: #e9ecef;
+}
+.route {
+  margin: 20px;
+}
+
+.MovieDetails {
+  width: 90%;
+  height: 90%;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.MovieDetails h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.MovieDetails .detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.MovieDetails img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.MovieList a {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+}
+
+.Movie-overview {
+  max-width: 50%;
+  word-wrap: break-word;
+}
+
+.MovieList ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.MovieList li {
+  width: 50%;
+  max-width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.MovieList button {
+  width: 15%;
+  padding: 10px;
+  font-size: 1.2em;
+  margin: 10px auto;
+  display: block;
+  border: none;
   color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.MovieList button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Actors-title {
+  text-align: center;
+  color: #333;
+}
+
+.Actor-searchbar {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.2em;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+.Actor-button {
+  width: 15%;
+  padding: 10px;
+  font-size: 1.2em;
+  margin: 10px auto;
+  display: block;
+  border: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Actor-button:hover {
+  background-color: #0056b3;
+}
+
+.actors-bio {
+  text-align: center;
+  color: #333;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.Directors-title {
+  text-align: center;
+  color: #333;
+}
+
+.Directors-bio {
+  text-align: center;
+  color: #333;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.Directors-search-bar {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.2em;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+.Directors-MovieCard {
+  flex: 0 0 23%;
+  margin: 1%;
+}
+
+.Directors-button {
+  width: 15%;
+  padding: 10px;
+  font-size: 1.2em;
+  margin: 10px auto;
+  display: block;
+  border: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Directors-button:hover {
+  background-color: #0056b3;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+}
+
+.movie-card-container {
+  flex: 0 0 23%;
+  margin: 1%;
+}
+
+.MovieCard {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.Like-button {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  margin: 20px auto;
+  border: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Like-button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  background-color: #c9c9c9;
+}
+
+.NavBar {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.NavBar a {
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.NavBar a:hover {
+  background-color: #e9ecef;
+}
+.route {
+  margin: 20px;
+}
+
+.MovieDetails {
+  width: 90%;
+  height: 90%;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.MovieDetails h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.MovieDetails .detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.MovieDetails img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.LikedMovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.LikedMovies-MovieCard {
+  flex: 0 0 23%;
+  margin: 1%;
+}
+
+a {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
 }

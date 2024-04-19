@@ -1,0 +1,122 @@
+{
+  "movies": [
+    {
+      "id": 11,
+      "title": "Star Wars",
+      "release_date": "1977-05-25",
+      "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+      "poster_path": "/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg"
+    },
+    {
+      "id": 251471,
+      "title": "A LEGO Brickumentary",
+      "release_date": "2014-11-09",
+      "overview": "A look at the global culture and appeal of the LEGO building-block toys.",
+      "poster_path": "/ojBg3yJfsqzi1maypHV7sW7COcn.jpg"
+    },
+    {
+      "id": 157336,
+      "title": "Interstellar",
+      "release_date": "2014-11-05",
+      "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+      "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+    },
+    {
+      "id": 268,
+      "title": "Batman",
+      "release_date": "1989-06-21",
+      "overview": "Batman must face his most ruthless nemesis when a deformed madman calling himself \"The Joker\" seizes control of Gotham's criminal underworld.",
+      "poster_path": "/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Finding Nemo",
+      "release_date": "2003-05-30",
+      "overview": "Nemo, an adventurous young clownfish, is unexpectedly taken from his Great Barrier Reef home to a dentist's office aquarium. It's up to his worrisome father Marlin and a friendly but forgetful fish Dory to bring Nemo home -- meeting vegetarian sharks, surfer dude turtles, hypnotic jellyfish, hungry seagulls, and more along the way.",
+      "poster_path": "/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg"
+    },
+    {
+      "id": 428585,
+      "title": "Lemon",
+      "release_date": "2017-01-22",
+      "overview": "A man watches his life unravel after he is left by his blind girlfriend.",
+      "poster_path": "/cZWjfUKuqufDjp3C9ufI8DLAxH7.jpg"
+    },
+    {
+      "id": 244786,
+      "adult": false,
+      "backdrop_path": "/vNXGrknx4GjWLgmuNTftWZluIUl.jpg",
+      "belongs_to_collection": null,
+      "budget": 3300000,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10402,
+          "name": "Music"
+        }
+      ],
+      "homepage": "http://sonyclassics.com/whiplash/",
+      "imdb_id": "tt2582802",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Whiplash",
+      "overview": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+      "popularity": 115.478,
+      "poster_path": "/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "production_companies": [
+        {
+          "id": 2266,
+          "logo_path": "/owzVs2mguyyJ3vIn7EbgowpUPnk.png",
+          "name": "Bold Films",
+          "origin_country": "US"
+        },
+        {
+          "id": 3172,
+          "logo_path": "/rzKluDcRkIwHZK2pHsiT667A2Kw.png",
+          "name": "Blumhouse Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 32157,
+          "logo_path": "/4hOCk25Ce8s242NItnwtV7aKRWY.png",
+          "name": "Right of Way Films",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2014-10-10",
+      "revenue": 13092000,
+      "runtime": 107,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "The road to greatness can take you to the edge.",
+      "title": "Whiplash",
+      "video": false,
+      "vote_average": 8.382,
+      "vote_count": 14540
+    },
+    {
+      "id": 36628,
+      "title": "Lo",
+      "release_date": "2009-07-01",
+      "overview": "Love presents many challenges to couples...but none so daunting as the one Justin faces with his girlfriend April...",
+      "poster_path": "/SaeERCfzpNWT38Ln3kZDGomqC3.jpg"
+    }
+  ]
+}
