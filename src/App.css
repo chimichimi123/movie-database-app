@@ -51,10 +51,6 @@
   background-color: #0056b3;
 }
 
-body {
-  background-color: #c9c9c9;
-}
-
 .NavBar {
   background-color: #f8f9fa;
   display: flex;
@@ -276,89 +272,12 @@ body {
   background-color: #f9f9f9;
 }
 
-.Like-button {
-  display: block;
-  width: 100px;
-  padding: 10px;
-  margin: 20px auto;
-  border: none;
-  color: white;
-  background-color: #007bff;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.Like-button:hover {
-  background-color: #0056b3;
-}
-
 body {
   background-color: #c9c9c9;
 }
 
-.NavBar {
-  background-color: #f8f9fa;
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-}
-
-.NavBar a {
-  color: #333;
-  margin: 0 10px;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.NavBar a:hover {
-  background-color: #e9ecef;
-}
 .route {
   margin: 20px;
-}
-
-.MovieDetails {
-  width: 90%;
-  height: 90%;
-  margin: 5% auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.MovieDetails h1 {
-  font-size: 2.5em;
-  color: #333;
-  margin-bottom: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.MovieDetails .detail {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
-  background-color: #f0f0f0;
-}
-
-.MovieDetails img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .LikedMovies {
